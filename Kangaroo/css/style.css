@@ -16,8 +16,18 @@ body{
   width: 60%;
   height: 80px;
 }
+/*div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border: 1px solid #333;
+  z-index: 999;
+  box-shadow: 
+
+
+}*/
   .col-title {
-    max-width: 225px;
+    max-width: 228px;
     width: 100%;
   }
   h3.image1 {
@@ -123,7 +133,7 @@ body{
   }
 
   .group .container{
-      max-width: 1207px;
+      max-width: 1232px;
     }
   .group .container .product-group .container{
     background: #ddf2ff;
@@ -403,14 +413,14 @@ overflow: hidden;
 .tooltip.right  { margin-left: 42px; }
 
 
-.tooltip > .tooltip-inner {
+.area-left-menu .left-menu  .list-group .list-group-item + .tooltip > .tooltip-inner {
     background-color: red; 
     color: #fff; 
     border: 1px solid red; 
   
   }
   /* Tooltip on top */
-.tooltip.right > .tooltip-arrow {
+.area-left-menu .left-menu  .list-group .list-group-item + .tooltip.right > .tooltip-arrow {
     border-right: 5px solid #f70331;
      background-color: red; 
   }
@@ -424,6 +434,7 @@ overflow: hidden;
   padding: 2px;
   width: 65px;
   line-height: 50px;
+  
 }
 
 .left-menu .list-group-item:hover {
@@ -587,12 +598,35 @@ a{text-decoration: none !important;}
 	    margin-top: -2px;
 	    font-size: 12px;
      }
-  .content{
-
+     .menu-on .search{
+      padding-top: 10px;
+      background: #fff;
+       position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      border: 1px solid #f8f9fa;
+      z-index: 99;
+      background: #fff;
+      margin-top: 10px;
+      display: flex;
+      width: 100%;
+     box-shadow:  rgba(0,0,0,0.1);
+     }
+   
+     .content{
+      margin-left: 65px;
+     }
+  /*.content{
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      border: 1px solid #333;
+      z-index: 99;
+      background: #fff;
      	margin-top: 10px;
      	display: flex;
      	width: 100%;
-     }
+     }*/
      .form{
      	line-height: 42px;
      }
@@ -696,20 +730,26 @@ form.example button:hover {
 .img-right img {
 	display: block;
 }
-#myCarousel:hover .carousel-control > span {
-	display: block !important;
+#demo:hover .carousel-control-next > span {
+  display: block !important;
 }
-.carousel-control > span {
-	border: 1px;
-    background-color: #000;
-    border-radius: 100%;
-    width: 42px !important;
-    height: 42px !important;
-    padding-top: 5px;
+.carousel-control-next > span {
+
     display: none !important;
     transition: 2s;
 }
-.carousel-control:hover,.carousel-control {
+.carousel-control-next:hover,.carousel-control-next {
+  background-image: unset !important;
+}
+#demo:hover .carousel-control-prev > span {
+	display: block !important;
+}
+.carousel-control-prev > span {
+
+    display: none !important;
+    transition: 2s;
+}
+.carousel-control-prev:hover,.carousel-control-prev {
 	background-image: unset !important;
 }
 .slide-box{
@@ -855,3 +895,66 @@ form.example button:hover {
   i {
     font-family: 
   }
+
+  /*--------------------------------footer-----------------------------------*/
+  .dark{
+      background-color: #333;
+      color: #CCC;
+      border-top-color: rgba(0,0,0,0.2);
+    } 
+    .container {
+        width: 98%!important;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    #footer .footer-widgets-wrap {
+        position: relative;
+    }
+    .prefooter_one, .prefooter_one p {
+        font-size: 13px!important;
+    }
+    .htthanhtoan{
+      text-align: center;
+      border-top:  1px dashed rgba(255,255,255,.4)
+    }
+    .htthanhtoan1{
+      text-align: center;
+    }
+    .mautrang li a {
+      color: #ffffff;
+
+    }
+    .mautrang11 a{
+     
+       color: #ffffff;
+
+    }
+    .cochu{
+      font-size: 20px;
+      padding-top: 5px;
+    }
+    .anh{
+      background: <img src="anh_java" alt="">
+    }
+    .liststyle{
+      list-style: none;
+    }
+    .khoangcach{
+      margin-right: 10px;
+    }
+    .khoangcach1{
+      padding: 0px;
+    }
+    .copyrights{
+     font-size: 12px;
+    color: rgba(255,255,255,0.25);
+    padding-bottom: 0px;
+    background-color: rgba(0,0,0,0.2);
+    margin-top: 20px;
+    padding-top: 6px;
+    }
+    .copyrights .mautrang11 a{
+     
+      color: rgba(255,255,255,0.25);
+    }
+}

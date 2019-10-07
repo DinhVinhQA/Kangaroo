@@ -23,14 +23,10 @@ $(document).ready(function () {
     });
     
     
-
     
-    
-    
-    
-
-     
-
+      
+    if($('.area-left-menu .left-menu .list-group .list-group-item').scrollTop()<=300)
+            $('.left-menu').hide();
 
     //scroll event
     JustMovedOverclick=$('.area-left-menu .left-menu .list-group .list-group-item');
@@ -77,9 +73,9 @@ $(document).ready(function () {
             //$('#list3').css('width','65px');
         }
         if($(this).scrollTop()>300)
-                $('.sidebar').show();
+                $('.left-menu').show();
         if($(this).scrollTop()<=300)
-                $('.sidebar').hide();
+                $('.left-menu').hide();
     })
     var Mayhidrogen=$('#index_col_group_1').offset().top;
     var Maykangaroo=$('#index_col_group_2').offset().top;
@@ -92,10 +88,10 @@ $(document).ready(function () {
     
 
     // hide/show rightsidebar
-    if($('.area-left-menu  .list-group list-group-item').scrollTop()>300)
+    if($('.area-left-menu .left-menu').scrollTop()>300)
                 $('.left-menu').show();
     
-    if($('.area-left-menu  .list-group list-group-item').scrollTop()<=300)
+    if($('.area-left-menu .left-menu').scrollTop()<=300)
                 $('.left-menu').hide();
 
 });

@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	
+
 	<link rel="stylesheet" href="css/style.css">
 	
 </head>
@@ -114,27 +114,32 @@
 
 	<main>
 		<div class="menu-on">
-			<div class="container">
-				<div class="content">
-					<div class="row w-100 pr-5">
-						<div class="col-lg-2 pl-0">
-							<img src="img/img1.png" width="auto" height="60px;">
-						</div>
-						<div class="col-lg-7 form">
-							<form class="example" action="/action_page.php" method="get">
-								<input type="text" placeholder="  Tìm kiếm.." name="search">
-								<button type="submit">  TÌM KIẾM</button>
-							</form>
+			<div class="search">
+				
+				<div class="content" style=" width: 100%;">
+					<div class="container">
+						<div class="row w-100 pr-5">
+							<div class="col-lg-2 pl-0">
+								<img src="img/img1.png" width="auto" height="60px;">
+							</div>
+							<div class="col-lg-7 form">
+								<form class="example" action="/action_page.php" method="get">
+									<input type="text" placeholder="  Tìm kiếm.." name="search">
+									<button type="submit">  TÌM KIẾM</button>
+								</form>
 
-						</div>
-						<div class="col-lg-1">
-							<img src="img/img2.png" width="auto">
-						</div>
-						<div class="col-lg-2">
-							<img src="img/img3.jpg" width="auto">
+							</div>
+							<div class="col-lg-1">
+								<img src="img/img2.png" width="auto">
+							</div>
+							<div class="col-lg-2">
+								<img src="img/img3.jpg" width="auto">
+							</div>
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="container">
 				<div class="box-top">
 					<div class="row">
 						<div class="col-md-3 pr-0">
@@ -211,79 +216,78 @@
 						</li>
 					</ul>
 				</div>
+
 			</div>
 			<div class="col-md-7 pl-0 pr-0">
 				<a href=""><img src="img/banner_top.png" class="w-100"></a>
-				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<div id="demo" class="carousel slide" data-ride="carousel">
+
 					<!-- Indicators -->
-			    <!-- <ol class="carousel-indicators">
-			      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			      <li data-target="#myCarousel" data-slide-to="1"></li>
-			      <li data-target="#myCarousel" data-slide-to="2"></li>
-			  </ol> -->
+					<ul class="carousel-indicators">
+						<li data-target="#demo" data-slide-to="0" class="active"></li>
+						<li data-target="#demo" data-slide-to="1"></li>
+						<li data-target="#demo" data-slide-to="2"></li>
+					</ul>
 
-			  <!-- Wrapper for slides -->
-			  <div class="carousel-inner">
-			  	<div class="item active">
-			  		<img src="img/slideshow_1.jpg" alt="Los Angeles" style="width:100%;height: 100%;">
-			  	</div>
+					<!-- The slideshow -->
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="img/slideshow_1.jpg" alt="Los Angeles" style="width:100%;height: 100%;">
+						</div>
+						<div class="carousel-item">
+							<img src="img/slideshow_2.jpg" alt="Chicago" style="width:100%;height: 100%;">
+						</div>
+						<div class="carousel-item">
+							<img src="img/slideshow_3.jpg" alt="Chicago" style="width:100%;height: 100%;">
+						</div>
+						<div class="carousel-item">
+							<img src="img/slideshow_4.jpg" alt="Chicago" style="width:100%;height: 100%;">
+						</div>
+					</div>
 
-			  	<div class="item">
-			  		<img src="img/slideshow_2.jpg" alt="Chicago" style="width:100%;height: 100%;">
-			  	</div>
-			  	<div class="item">
-			  		<img src="img/slideshow_3.jpg" alt="Chicago" style="width:100%;height: 100%;">
-			  	</div>
-			  	<div class="item">
-			  		<img src="img/slideshow_4.jpg" alt="Chicago" style="width:100%;height: 100%;">
-			  	</div>
-
-			  </div>
-
-			  <!-- Left and right controls -->
-			  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-			  	<span class="glyphicon glyphicon-chevron-left"></span>
-			  	<span class="sr-only">Previous</span>
-			  </a>
-			  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-			  	<span class="glyphicon glyphicon-chevron-right"></span>
-			  	<span class="sr-only">Next</span>
-			  </a>
+					<!-- Left and right controls -->
+					<a class="carousel-control-prev" href="#demo" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a class="carousel-control-next" href="#demo" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+				</div>
+				
 			</div>
-		</div>
-		<div class="col-md-2 img-right pl-0">
-			<img src="img/banner_top_1.jpg">
-			<img src="img/banner_top_2.jpg">
-		</div>
+			<div class="col-md-2 img-right pl-0">
+				<img src="img/banner_top_1.jpg">
+				<img src="img/banner_top_2.jpg">
+			</div>
 
+		</div>
 	</div>
-</div>
-<div class="slide-center">
-	<div class="slide-box">
-		<div class="slide-item">
-			<a href=""><img src="img/popular_brand_img_2.png"></a>
-		</div>
-		<div class="slide-item">
-			<a href=""><img src="img/popular_brand_img_2.png"></a>
-		</div>
-		<div class="slide-item">
-			<a href=""><img src="img/popular_brand_img_2.png"></a>
-		</div>
-		<div class="slide-item">
-			<a href=""><img src="img/popular_brand_img_2.png"></a>
-		</div>
-		<div class="slide-item">
-			<a href=""><img src="img/popular_brand_img_2.png"></a>
-		</div>
-		<div class="slide-item">
-			<a href=""><img src="img/popular_brand_img_2.png"></a>
-		</div>
-		<div class="slide-item">
-			<a href=""><img src="img/popular_brand_img_2.png"></a>
-		</div>
-		<div class="slide-item">
-			<a href=""><img src="img/popular_brand_img_2.png"></a>
-		</div>
+	<div class="slide-center">
+		<div class="slide-box">
+			<div class="slide-item">
+				<a href=""><img src="img/popular_brand_img_2.png"></a>
+			</div>
+			<div class="slide-item">
+				<a href=""><img src="img/popular_brand_img_2.png"></a>
+			</div>
+			<div class="slide-item">
+				<a href=""><img src="img/popular_brand_img_2.png"></a>
+			</div>
+			<div class="slide-item">
+				<a href=""><img src="img/popular_brand_img_2.png"></a>
+			</div>
+			<div class="slide-item">
+				<a href=""><img src="img/popular_brand_img_2.png"></a>
+			</div>
+			<div class="slide-item">
+				<a href=""><img src="img/popular_brand_img_2.png"></a>
+			</div>
+			<div class="slide-item">
+				<a href=""><img src="img/popular_brand_img_2.png"></a>
+			</div>
+			<div class="slide-item">
+				<a href=""><img src="img/popular_brand_img_2.png"></a>
+			</div>
 			<!-- <div>
 				<a href=""><img src="img/popular_brand_img_2.png"></a>
 			</div>
@@ -338,65 +342,65 @@
 <div class="row group">
 	<div class="">
 		<section id="content" class="area-left-menu">
-					<div class="left-menu" id="myScrollspy">
-						<ul class="list-group">
+			<div class="left-menu" id="myScrollspy">
+				<ul class="list-group">
 
-							<li id="scroll1"  class="list-group-item " class="tooltip-main" data-toggle="tooltip" data-placement="right" title="Máy lọc nước Hydrogen"  style="width: 70px;padding-left: 18px;">
-								<a href='#index_col_group_1' data-href='#index_col_group_1'>
-									<img src='img/index_col_icon_1.png'  />
-								</a>
-							</li >
+					<li id="scroll1"  class="list-group-item " class="tooltip-main" data-toggle="tooltip" data-placement="right" title="Máy lọc nước Hydrogen"  style="width: 70px;padding-left: 18px;">
+						<a href='#index_col_group_1' data-href='#index_col_group_1'>
+							<img src='img/index_col_icon_1.png'  />
+						</a>
+					</li >
 
-							<li id="scroll2" class="list-group-item" class="tooltip-main" data-toggle="tooltip" data-placement="right" title="Máy lọc nước Kangaroo" style="width: 70px;padding-left: 18px;">
-								<a href='#index_col_group_2' data-href='#index_col_group_2'>
-									<img src='img/index_col_icon_2.png'  />
+					<li id="scroll2" class="list-group-item" class="tooltip-main" data-toggle="tooltip" data-placement="right" title="Máy lọc nước Kangaroo" style="width: 70px;padding-left: 18px;">
+						<a href='#index_col_group_2' data-href='#index_col_group_2'>
+							<img src='img/index_col_icon_2.png'  />
 
-								</a>
-							</li >
+						</a>
+					</li >
 
-							<li id="scroll3" class="list-group-item" class="tooltip-main" data-toggle="tooltip" data-placement="right" title="Cây nước Hàn Quốc" style="width: 70px;padding-left: 18px;">
-								<a href='#index_col_group_3' data-href='#index_col_group_3'>
-									<img src='img/index_col_icon_3.png'  />
+					<li id="scroll3" class="list-group-item" class="tooltip-main" data-toggle="tooltip" data-placement="right" title="Cây nước Hàn Quốc" style="width: 70px;padding-left: 18px;">
+						<a href='#index_col_group_3' data-href='#index_col_group_3'>
+							<img src='img/index_col_icon_3.png'  />
 
-								</a>
-							</li>
+						</a>
+					</li>
 
-							<li id="scroll4" class="list-group-item" class="tooltip-main" data-toggle="tooltip" data-placement="right" title="Cây nước liên doanh" style="width: 70px;padding-left: 18px;">
-								<a href='#index_col_group_4' data-href='#index_col_group_4'>
-									<img src='img/index_col_icon_4.png'  />
+					<li id="scroll4" class="list-group-item" class="tooltip-main" data-toggle="tooltip" data-placement="right" title="Cây nước liên doanh" style="width: 70px;padding-left: 18px;">
+						<a href='#index_col_group_4' data-href='#index_col_group_4'>
+							<img src='img/index_col_icon_4.png'  />
 
-								</a>
-							</li>
+						</a>
+					</li>
 
-							<li id="scroll5" class="list-group-item" class="tooltip-main" data-toggle="tooltip" data-placement="right" title="Máy làm mát không khí" style="width: 70px;padding-left: 18px;">
-								<a href='#index_col_group_5' data-href='#index_col_group_5'>
-									<img src='img/index_col_icon_5.png'  />
+					<li id="scroll5" class="list-group-item" class="tooltip-main" data-toggle="tooltip" data-placement="right" title="Máy làm mát không khí" style="width: 70px;padding-left: 18px;">
+						<a href='#index_col_group_5' data-href='#index_col_group_5'>
+							<img src='img/index_col_icon_5.png'  />
 
-								</a>
-							</li>
+						</a>
+					</li>
 
-							<li id="scroll6" class="list-group-item" class="tooltip-main" data-toggle="tooltip" data-placement="right" title="Tủ đông - Tủ mát Kangaroo" style="width: 70px;padding-left: 18px;">
-								<a href='#index_col_group_6' data-href='#index_col_group_6'>
-									<img src='img/index_col_icon_6.png'  />
+					<li id="scroll6" class="list-group-item" class="tooltip-main" data-toggle="tooltip" data-placement="right" title="Tủ đông - Tủ mát Kangaroo" style="width: 70px;padding-left: 18px;">
+						<a href='#index_col_group_6' data-href='#index_col_group_6'>
+							<img src='img/index_col_icon_6.png'  />
 
-								</a>
-							</li>
+						</a>
+					</li>
 
-							<li id="scroll7" class="list-group-item" class="tooltip-main" data-toggle="tooltip" data-placement="right" title="Thiết bị mùa đông Kangaroo" style="width: 70px;padding-left: 18px;">
-								<a href='#index_col_group_7' data-href='#index_col_group_7'>
-									<img src='img/index_col_icon_7.png'  />
+					<li id="scroll7" class="list-group-item" class="tooltip-main" data-toggle="tooltip" data-placement="right" title="Thiết bị mùa đông Kangaroo" style="width: 70px;padding-left: 18px;">
+						<a href='#index_col_group_7' data-href='#index_col_group_7'>
+							<img src='img/index_col_icon_7.png'  />
 
-								</a>
-							</li>
+						</a>
+					</li>
 
-							<li id="scroll8" class="list-group-item" class="tooltip-main" data-toggle="tooltip" data-placement="right" title="Thiết bị nhà bếp" style="width: 70px;padding-left: 18px;">
-								<a href='#index_col_group_8' data-href='#index_col_group_8'   >
-								<img src='img/index_col_icon_8.png'  >
-		                         </a>
-						   </li>
-					   </ul>
-			       </div>
-		     	</section>
+					<li id="scroll8" class="list-group-item" class="tooltip-main" data-toggle="tooltip" data-placement="right" title="Thiết bị nhà bếp" style="width: 70px;padding-left: 18px;">
+						<a href='#index_col_group_8' data-href='#index_col_group_8'   >
+							<img src='img/index_col_icon_8.png'  >
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
 	</div>
 	<div>
 		<div class="container">
@@ -2127,9 +2131,9 @@
 	</div>
 
 	<div >
-		<div class="mini bp-cb-header"> <i class="far fa-comments"></i>&emsp;<span>Chat online mua hàng trực tuyến</span></div>
+		<div class="mini bp-cb-header"> <i class="fa fa-comments"></i>&emsp;<span>Chat online mua hàng trực tuyến</span></div>
 		<div class="bp-chatbox">
-			<div class="bp-cb-header"><span>Chat online mua hàng trực tuyến</span><span class="icon-top"><i class="minisize fas fa-chevron-down"></i><i class="no-dis fas fa-times"></i></span></div>
+			<div class="bp-cb-header"><span>Chat online mua hàng trực tuyến</span><span class="icon-top"><i class="minisize fa fa-chevron-down"></i><i class="no-dis fa fa-times"></i></span></div>
 			<div class="bp-cb-content">
 				<div class="bp-cb-ct-header">
 					<img src="https://id.vatgia.com/avatar/50/001/74a/9d.png" alt="">
@@ -2148,13 +2152,13 @@
 					<textarea name="" placeholder="Gõ vào đây và nhấn <enter> để chat"></textarea>
 						<div class="bp-cb-ct-ta-icon">
 							<span>☺</span>
-							<i class="fas fa-paperclip"></i>
+							<i class="fa fa-paperclip"></i>
 						</div>	
 					</div>
 				</div>
 				<div class="bp-cb-footer">
-					<button class="bp-cb-ft-like"><i class="fas fa-thumbs-up"></i></button>
-					<i class="fas fa-cog pl-2"></i>
+					<button class="bp-cb-ft-like"><i class="fa fa-thumbs-up"></i></button>
+					<i class="fa fa-cog pl-2"></i>
 					<span class="d-flex justify-content-center w-100"><marquee behavior="" direction="">Phần mềm chat MIỄN PHÍ trên website hàng đầu Việt Nam</marquee></span>
 
 				</div>
@@ -2183,223 +2187,398 @@
 
 			</div>
 			<div class="hot-line">
-				<div class="hot-line-one"><i class="fas fa-phone"></i><a href="">&emsp;0933.58.4044</a></div>
-				<div class="hot-line-two"><i class="fas fa-phone"></i><a href="">&emsp;0247.300.5567</a></div>
+				<div class="hot-line-one"><i class="fa fa-phone"></i><a href="">&emsp;0933.58.4044</a></div>
+				<div class="hot-line-two"><i class="fa fa-phone"></i><a href="">&emsp;0247.300.5567</a></div>
 			</div>
 		</div>
 	</div>
-	<div class="ner">
+	<div >
+		<div class="mini bp-cb-header"> <i class="fa fa-comments"></i>&emsp;<span>Chat online mua hàng trực tuyến</span></div>
+		<div class="bp-chatbox">
+			<div class="bp-cb-header"><span>Chat online mua hàng trực tuyến</span><span class="icon-top"><i class="minisize fa fa-chevron-down"></i><i class="no-dis fa fa-times"></i></span></div>
+			<div class="bp-cb-content">
+				<div class="bp-cb-ct-header">
+					<img src="https://id.vatgia.com/avatar/50/001/74a/9d.png" alt="">
+					<div class=" bp-cb-ct-h-tel">
+						<p>Hỗ trợ tư vấn</p>
+						<p>0915484004</p>
+					</div>
+					<div class="bp-cb-ct-h-tel-icon">
+						<img src="http://live.vnpgroup.net/client_server/themes/img/telephone_1.png" alt="">
+					</div>
+				</div>
+				<div class="bp-cb-ct-body">
+					<p class="d-flex justify-content-center">Chào bạn! Tôi có thể giúp gì cho bạn</p>
+				</div>
+				<div class="bp-cb-ct-textarea">
+					<textarea name="" placeholder="Gõ vào đây và nhấn <enter> để chat"></textarea>
+						<div class="bp-cb-ct-ta-icon">
+							<span>☺</span>
+							<i class="fa fa-paperclip"></i>
+						</div>	
+					</div>
+				</div>
+				<div class="bp-cb-footer">
+					<button class="bp-cb-ft-like"><i class="fa fa-thumbs-up"></i></button>
+					<i class="fa fa-cog pl-2"></i>
+					<span class="d-flex justify-content-center w-100"><marquee behavior="" direction="">Phần mềm chat MIỄN PHÍ trên website hàng đầu Việt Nam</marquee></span>
+
+				</div>
+			</div>
+			<div class="scroll-menu">
+				<div>
+					<img src="https://bizweb.dktcdn.net/100/075/453/files/icon-thanhtoan1.jpg?v=1466949377967" alt="">
+					<p>Giá tốt nhất</p>
+				</div>
+				<div>
+					<img src="https://bizweb.dktcdn.net/100/075/453/files/icon-giaohang1.jpg?v=1466949377917" alt="">
+					<p>Giao hàng tận nơi</p>
+				</div>
+				<div>
+					<img src="https://bizweb.dktcdn.net/100/075/453/files/icon-lapdat1.jpg?v=1466949377953" alt="">
+					<p>Thay lõi lọc tại nhà</p>
+				</div>
+				<div>
+					<img src="https://bizweb.dktcdn.net/100/075/453/files/icon-doitrahang1.jpg?v=1466949377890" alt="">
+					<p>Đỗi trả dễ dàng</p>
+				</div>
+				<div>
+					<img src="https://bizweb.dktcdn.net/100/075/453/files/icon-haumai1.jpg?v=1466949377937" alt="">
+					<p>Bảo hành chính hãng</p>
+				</div>
+
+			</div>
+			<div class="hot-line">
+				<div class="hot-line-one"><i class="fa fa-phone"></i><a href="">&emsp;0933.58.4044</a></div>
+				<div class="hot-line-two"><i class="fa fa-phone"></i><a href="">&emsp;0247.300.5567</a></div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+
 		<div style="margin-bottom:20px; width:100%;">
 			<div align="center" style="font-weight:bold; padding:20px; font-size:20px; font-family:verdana;">
 				Giới thiệu www.KangarooHanoi.vn
 			</div>
-			<div style="width:100%;">
-				<hr>
-			</div>
-			<div class="introduce">
-				<div style="text-align:justify;margin:auto;  font-family:verdana; font-size:85%;">
-
-					www.KangarooHanoi.vn hiện đang dẫn đầu thị trường về phân phối trực tuyến các sản phẩm thương hiệu Kangaroo. Chúng tôi liên tục mở rộng liên kết và hợp tác với các Showroom Kangaroo trên địa bàn Hà Nội để phục vụ khách hàng được tốt nhất.<br>
-					<br />
-
-					Quý khách có thể đặt mua hàng trực tuyến hoặc đặt mua hàng qua số điện thoại liên hệ 0933.58.4004 - 0915.48.4004 - 0969.48.4004. Kangaroo Hà Nội sẽ tiếp nhận và xử lý đơn hàng, sau đó đội ngũ kỹ thuật trực tiếp đến giao hàng, lắp đặt và thanh toán tại nhà Quý khách.
-					<br /><br>
-
-					Quý khách có nhu cầu trải nghiệm các sản phẩm trưng bày tại Showroom Kangaroo trước khi mua hàng. Quý khách có thể trực tiếp đến các chuỗi Showroom liên kết của Kangaroo Hà Nội và thực hiện các bước mua hàng sau.<br />
-					1. Đặt mua hàng trước qua hệ thống www.KangarooHanoi.vn hoặc mua hàng qua số Hotline:<b> 0933.58.4004 - 0915.48.4004 - 0969.48.4004 </b> Quý khách sẽ được nhận mã đơn hàng do nhân viên Sale online cung cấp.<br />
-					2. Quý khách đến các điểm Showroom Kangaroo liên kết với chúng tôi phía dưới, cung cấp mã đơn hàng để được phục vụ theo chính sách giá và chương trình khuyến mại của kangaroohanoi.vn. (Quý khách mua hàng trực tiếp tại Showroom sẽ theo chính sách giá riêng của mỗi Showroom). <br />
-					<br />
-					<span style="text-align:left;">Trân trọng cảm ơn quý khách hàng !</span><br><br>
-					<div style="float:left">
-						Chia sẻ: 
-						<a href="https://www.facebook.com/KangarooHanoi.vn/"><img src="https://bizweb.dktcdn.net/100/075/453/files/fb.jpg?v=1486352775023" /> </a>
-						<a href="https://www.youtube.com/channel/UCtVyGqltfhLU3cpcr1DkpTw/"><img src="https://bizweb.dktcdn.net/100/075/453/files/yt.jpg?v=1486352775027" /></a>
-						<a href="https://plus.google.com/u/0/+KangarooH%C3%A0N%E1%BB%99i"><img src="https://bizweb.dktcdn.net/100/075/453/files/g-plus.jpg?v=1486352775027" /></a>
-					</a>
-				</div>
-				<div style=" margin-right: 20px; text-align: right;">
-					<div id="fb-root"></div>
-					<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v4.0"></script>
-					<div class="fb-page" data-href="https://www.facebook.com/KangarooHanoi.vn/" data-tabs="timeline" data-width="300px" data-height="180"data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/kangaroostore.vn/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/kangaroostore.vn/">Kangaroostore.vn</a></blockquote></div>
-
-
-				</div>
-				<div style="clear:both"></div>
-			</div>
-		</div>
-
-	</div>	
-
-
-
-	<div style="margin-bottom:20px; width:100%;">
-		<div align="center" style="font-weight:bold;padding:20px;font-size:20px;">www.KangarooHanoi.vn - Nhà phân phối chính hãng sản phẩm của Tập đoàn Kangaroo</div>
-		<div style="width:100%;">
 
 			<hr>
-		</div>
-
-		<div style="width:50%; float:left;" align="center">
-			<h5><strong>GIẤY CHỨNG NHẬN NHÀ PHÂN PHỐI CHÍNH HÃNG</strong></h5><br>
-			<img style="width:34%;" src="https://bizweb.dktcdn.net/100/075/453/files/npp-kangaroohanoi2-compressed-78554b92-e8cc-4db2-8450-d18045bcc717.jpg?v=1496801929080" />
-			<img style="width:36%;" src="https://bizweb.dktcdn.net/100/075/453/files/chungnhanstore-copy-compressed.jpg?v=1496216426140" />
 
 		</div>
-		<div style="float:left; width:50%;" align="center">
-			<h5><strong>GIẢI THƯỞNG DANH HIỆU VÀNG DOANH SỐ NĂM 2015</h5><br>
-				<img style="width:65%" src="https://bizweb.dktcdn.net/100/075/453/files/05-05-05-copy-3-compressed-009a5fa1-e977-4af6-98a7-0600fe382aed.jpg?v=1496216647257" /></div>
+
+		<div class="introduce"style="width: 99%;">
+			<div style="text-align:justify;margin:auto;  font-family:verdana; font-size:85%;">
+				www.KangarooHanoi.vn hiện đang dẫn đầu thị trường về phân phối trực tuyến các sản phẩm thương hiệu Kangaroo. Chúng tôi liên tục mở rộng liên kết và hợp tác với các Showroom Kangaroo trên địa bàn Hà Nội để phục vụ khách hàng được tốt nhất.<br>
+				<br />
+				Quý khách có thể đặt mua hàng trực tuyến hoặc đặt mua hàng qua số điện thoại liên hệ 0933.58.4004 - 0915.48.4004 - 0969.48.4004. Kangaroo Hà Nội sẽ tiếp nhận và xử lý đơn hàng, sau đó đội ngũ kỹ thuật trực tiếp đến giao hàng, lắp đặt và thanh toán tại nhà Quý khách.
+				<br /><br>
+				Quý khách có nhu cầu trải nghiệm các sản phẩm trưng bày tại Showroom Kangaroo trước khi mua hàng. Quý khách có thể trực tiếp đến các chuỗi Showroom liên kết của Kangaroo Hà Nội và thực hiện các bước mua hàng sau.<br />
+				1. Đặt mua hàng trước qua hệ thống www.KangarooHanoi.vn hoặc mua hàng qua số Hotline:<b> 0933.58.4004 - 0915.48.4004 - 0969.48.4004 </b> Quý khách sẽ được nhận mã đơn hàng do nhân viên Sale online cung cấp.<br />
+				2. Quý khách đến các điểm Showroom Kangaroo liên kết với chúng tôi phía dưới, cung cấp mã đơn hàng để được phục vụ theo chính sách giá và chương trình khuyến mại của kangaroohanoi.vn. (Quý khách mua hàng trực tiếp tại Showroom sẽ theo chính sách giá riêng của mỗi Showroom). <br />
+				<spanstyle="text-align:left;">Trân trọng cảm ơn quý khách hàng !></span><br><br>
+				<div style="float:left">
+					Chia sẻ:
+					<a href="https://www.facebook.com/KangarooHanoi.vn/"><img src="https://bizweb.dktcdn.net/100/075/453/files/fb.jpg?v=1486352775023" /></a>
+					<a href="https://www.youtube.com/channel/UCtVyGqltfhLU3cpcr1DkpTw/"><img src="https://bizweb.dktcdn.net/100/075/453/files/yt.jpg?v=1486352775027" /></a>
+					<a href="https://plus.google.com/u/0/+KangarooH%C3%A0N%E1%BB%99i"><img src="https://bizweb.dktcdn.net/100/075/453/files/g-plus.jpg?v=1486352775027" /></a>
+				</div>
+				<div>
+					<div style=" margin-right: 20px; text-align: right;">
+						<div id="fb-root"></div>
+						<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v4.0"></script>
+						<div class="fb-page" data-href="https://www.facebook.com/KangarooHanoi.vn/" data-tabs="timeline" data-width="300px" data-height="180"data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/kangaroostore.vn/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/kangaroostore.vn/">Kangaroostore.vn</a></blockquote></div>
+						<div style="clear:both"></div>	
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+
+		<div style="margin-bottom:20px; width:100%;">
+			<div align="center" style="font-weight:bold;padding:20px;font-size:20px;">www.KangarooHanoi.vn - Nhà phân phối chính hãng sản phẩm của Tập đoàn Kangaroo</div>
+
+			<hr>
+
+			<div align="center" style="width:50%; float:left;">
+				<h5><strong>GIẤY CHỨNG NHẬN NHÀ PHÂN PHỐI CHÍNH HÃNG</strong></h5><br>
+				<img style="width:34%;" src="https://bizweb.dktcdn.net/100/075/453/files/npp-kangaroohanoi2-compressed-78554b92-e8cc-4db2-8450-d18045bcc717.jpg?v=1496801929080" />
+				<img style="width:36%;" src="https://bizweb.dktcdn.net/100/075/453/files/chungnhanstore-copy-compressed.jpg?v=1496216426140" />
+				
+			</div>
+
+			<div align="center" style="float:left; width:50%;">
+				<h5><strong>GIẢI THƯỞNG DANH HIỆU VÀNG DOANH SỐ NĂM 2015</strong></h5><br>
+				<img style="width:65%" src="https://bizweb.dktcdn.net/100/075/453/files/05-05-05-copy-3-compressed-009a5fa1-e977-4af6-98a7-0600fe382aed.jpg?v=1496216647257" />
+			</div>
+
+		</div>
+
+
+		<div style=" float:left; width:100%; margin-top:20px; margin-bottom:20px;">
+
+			<div align="center" style="font-weight:bold; padding:20px; font-size:20px;">
+				Danh sách chuỗi Showroom liên kết	
+			</div>
+
+			<hr>
+
+
+			<section class="foo3 mt-4">
+				<div  class="container">
+					<!-- end row -->
+					<div class="row mt-1">
+						<div class="col-lg-6 text-center bg-light">
+							<div class=" row align-items-center">
+								<div class="col-4 foo3-img text-center">
+									<a class="img-thumbnail" href="#"><img src="http://media.bizwebmedia.net/Sites/73587/data/upload/tinhgiam/videotdn.jpg?2" style="border: 1px solid rgb(204, 204, 204); padding: 1px; width: 70px; height: 60px;"></a><br>
+									<a href="#">Xem bản đồ</a>
+								</div>
+								<div class="col-8 pl-0 text-left py-3">
+									<h6 class="text-uppercase">Tổng kho Kangaroo Hà Nội</h6>
+									<p class="small m-0">30 Trần Đại Nghĩa - Hai Bà trưng - Hà Nội</p>
+									<p class="small m-0">Hotline: 0933.58.4004 - 0915.48.4004 - 0969.484.004</p>
+								</div>
+							</div>
+						</div>
+						<!-- end col 6 -->
+						<div class="col-lg-6 text-center bg-light">
+							<div class=" row align-items-center">
+								<div class="col-4 foo3-img text-center">
+									<a class="img-thumbnail" href="#"><img src="https://bizweb.dktcdn.net/100/075/453/files/cnmb-compressed.jpg?v=1496221960417" style="border: 1px solid rgb(204, 204, 204); padding: 1px; width: 70px; height: 60px;"></a><br>
+									<a href="#">Xem bản đồ</a>
+								</div>
+								<div class="col-8 pl-0 text-left py-3">
+									<h6 class="text-uppercase">TRUNG TÂM BẢO HÀNH TOÀN QUỐC KANGAROO</h6>
+									<p class="small m-0">231 Trần Đại Nghĩa - Đồng Tâm - Hai Bà Trưng - HN</p>
+									<p class="small m-0">Hotline: 1900 55 55 66 - Fax: 043 628 3115</p>
+								</div>
+							</div>
+						</div>
+						<!-- end col 6 -->
+						<div class="col-lg-6 text-center ">
+							<div class=" row align-items-center">
+								<div class="col-4 foo3-img text-center">
+									<a class="img-thumbnail" href="#"><img src="https://bizweb.dktcdn.net/100/075/453/files/cnmb-compressed.jpg?v=1496221960417" style="border: 1px solid rgb(204, 204, 204); padding: 1px; width: 70px; height: 60px;"></a><br>
+									<a href="#">Xem bản đồ</a>
+								</div>
+								<div class="col-8 pl-0 text-left py-3">
+									<h6 class="text-uppercase">Showroom Kangaroo Trần Đại Nghĩa</h6>
+									<p class="small m-0">Số 231 Trần Đại Nghĩa - Hai Bà Trưng - Tp.HN</p>
+									<p class="small m-0">Hotline: 0933.58.4004 - 0915.48.4004 - 0969.484.004</p>
+								</div>
+							</div>
+						</div>
+						<!-- end col 6 -->
+						<div class="col-lg-6 text-center ">
+							<div class=" row align-items-center">
+								<div class="col-4 foo3-img text-center">
+									<a class="img-thumbnail" href="#"><img src="http://media.bizwebmedia.net/Sites/73587/data/upload/icon2.jpg?2" style="border: 1px solid rgb(204, 204, 204); padding: 1px; width: 70px; height: 60px;"></a><br>
+									<a href="#">Xem bản đồ</a>
+								</div>
+								<div class="col-8 pl-0 text-left py-3">
+									<h6 class="text-uppercase">Showroom Kangaroo Trần Khát Chân</h6>
+									<p class="small m-0">Số 125 Trần Khát Chân - Hai Bà Trưng - Tp.HN</p>
+									<p class="small m-0">Hotline: 0933.58.4004 - 0915.48.4004 - 0969.484.004</p>
+								</div>
+							</div>
+						</div>
+						<!-- end col 6 -->
+						<div class="col-lg-6 text-center ">
+							<div class=" row align-items-center">
+								<div class="col-4 foo3-img text-center">
+									<a class="img-thumbnail" href="#"><img src="https://bizweb.dktcdn.net/100/075/453/files/cnmb-compressed.jpg?v=1496221960417" style="border: 1px solid rgb(204, 204, 204); padding: 1px; width: 70px; height: 60px;"></a><br>
+									<a href="#">Xem bản đồ</a>
+								</div>
+								<div class="col-8 pl-0 text-left py-3">
+									<h6 class="text-uppercase">Showroom Kangaroo Ô Chợ Dừa</h6>
+									<p class="small m-0">Ngã 7 Ô Chợ Dừa (11 Đông Các - Đống Đa - Hà Nội)</p>
+									<p class="small m-0">Hotline: 0933.58.4004 - 0915.48.4004 - 0969.484.004</p>
+								</div>
+							</div>
+						</div>
+						<!-- end col 6 -->
+						<div class="col-lg-6 text-center ">
+							<div class=" row align-items-center">
+								<div class="col-4 foo3-img text-center">
+									<a class="img-thumbnail" href="#"><img src="http://media.bizwebmedia.net/Sites/73587/data/upload/icon2.jpg?2" style="border: 1px solid rgb(204, 204, 204); padding: 1px; width: 70px; height: 60px;"></a><br>
+									<a href="#">Xem bản đồ</a>
+								</div>
+								<div class="col-8 pl-0 text-left py-3">
+									<h6 class="text-uppercase">Showroom Kangaroo Thanh Nhàn</h6>
+									<p class="small m-0">77 - 79 Thanh Nhàn - Hai Bà Trưng - Hà Nội</p>
+									<p class="small m-0">Hotline: 0933.58.4004 - 0915.48.4004 - 0969.484.004</p>
+								</div>
+							</div>
+						</div>
+						<!-- end col 6 -->
+						<div class="col-lg-6 text-center ">
+							<div class=" row align-items-center">
+								<div class="col-4 foo3-img text-center">
+									<a class="img-thumbnail" href="#"><img src="https://bizweb.dktcdn.net/100/075/453/files/cnmb-compressed.jpg?v=1496221960417" style="border: 1px solid rgb(204, 204, 204); padding: 1px; width: 70px; height: 60px;"></a><br>
+									<a href="#">Xem bản đồ</a>
+								</div>
+								<div class="col-8 pl-0 text-left py-3">
+									<h6 class="text-uppercase">Showroom Kangaroo Nguyễn Xiển</h6>
+									<p class="small m-0">Số 1 Nguyễn Xiển - Thanh Xuân - Hà Nội</p>
+									<p class="small m-0">Hotline: 0933.58.4004 - 0915.48.4004 - 0969.484.004</p>
+								</div>
+							</div>
+						</div>
+						<!-- end col 6 -->
+						<div class="col-lg-6 text-center ">
+							<div class=" row align-items-center">
+								<div class="col-4 foo3-img text-center">
+									<a class="img-thumbnail" href="#"><img src="http://media.bizwebmedia.net/Sites/73587/data/upload/icon2.jpg?2" style="border: 1px solid rgb(204, 204, 204); padding: 1px; width: 70px; height: 60px;"></a><br>
+									<a href="#">Xem bản đồ</a>
+								</div>
+								<div class="col-8 pl-0 text-left py-3">
+									<h6 class="text-uppercase">Showroom Kangaroo Minh Khai</h6>
+									<p class="small m-0">Số 229 Minh Khai - Hai Bà Trưng - Hà Nội</p>
+									<p class="small m-0">Hotline: 0933.58.4004 - 0915.48.4004 - 0969.484.004</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<!-- end row -->	
+				</div>
+
+			</section>
+
+		</div>
+		
+		
+	</div>
+	<footer id="footer" class="dark " style="margin-top: 1000px;padding-top: 30px;">
+		
+		<div class="container">
+
+			<div class="footer-widgets-wrap clearfix footer_wrap_2 row">
+				<div class="prefooter_one col-sm-3 col-xs-12">
+
+					<div class="widget clearfix">
+
+						<a href='' class='footer_logo'><img src='img/footer_logo.png' /></a>
+						<p><p>Nhà phân phối chính thức các sản phẩm chính hãng của tập đoàn Kangaroo</p>
+						<a rel="nofollow" href="http://www.online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=3274" class="seoquake-nofollow">
+							<img src="https://bizweb.dktcdn.net/100/075/453/files/boct2.png?v=1466569093367"></a></p>
+						</div>
+					</div>
+
+					<div class="prefooter_one col-sm-3 col-xs-12 dark">
+
+						<div class="widget widget_links clearfix">
+
+							<h4 class="cochu">Giới thiệu</h4>
+
+							<ul class="mautrang liststyle khoangcach1">
+								
+								<li><img src="img/bacham.png"class="khoangcach" ><a href="/huong-dan-mua-hang"  >Về chúng tôi</a></li>
+								
+								<li><img src="img/bacham.png"class="khoangcach"><a href="/huong-dan-mua-hang">Hình thức mua hàng</a></li>
+								
+								<li><img src="img/bacham.png"class="khoangcach"><a href="/hinh-thuc-thanh-toan">Hình thức thanh toán</a></li>
+								
+								<li><img src="img/bacham.png" class="khoangcach"><a href="/chinh-sach-bao-mat-thong-tin">Chính sách bảo mật</a></li>
+								
+								<li><img src="img/bacham.png"class="khoangcach"><a href="/tin-thoi-su-kangaroo">Tư vấn</a></li>
+								
+							</ul>
+
+						</div>
+						<div class='marginbottom hidden-lg hidden-md hidden-sm'>
+
+						</div>
+					</div>
+
+					<div class="prefooter_one col-sm-3 col-xs-12">
+
+						<div class="widget widget_links clearfix mautrang11">
+
+							<h4 class="cochu">Thông tin trợ giúp</h4>
+
+							<ul class="liststyle khoangcach1">
+								
+								<li><img src="img/bacham.png" class="khoangcach"><a href="/cac-hinh-thuc-mua-hang ">Hướng dẫn mua hàng</a></li>
+								
+								<li><img src="img/bacham.png" class="khoangcach"><a href="/chinh-sach-van-chuyen-giao-hang">Vận chuyển và giao hàng</a></li>
+								
+								<li><img src="img/bacham.png" class="khoangcach"><a href="/chinh-sach-doi-tra-hang">Đổi và trả hàng</a></li>
+								
+								<li><img src="img/bacham.png" class="khoangcach"><a href="/chinh-sach-bao-hanh">Chính sách bảo hành</a></li>
+								
+							</ul>
+
+						</div>
+						<div class='marginbottom hidden-lg hidden-md hidden-sm'>
+
+						</div>
+					</div>
+
+					<div class="prefooter_one col-sm-3 col-xs-12">
+
+						<div class="widget widget_links clearfix">
+
+							<h4 class="cochu">Liên hệ</h4>
+							<p></p>
+							<address class="mautrang11 ">
+								
+								<img src= "img/diachi.png">
+								<span>Số 1 Nguyễn Xiển, Thanh Xuân, Hà Nội</span> <br>
+								
+								<img src='img/call.png' />
+								<a href='tel:CSKH: 0981.926.011 - 0914.666.512' >CSKH: 0981.926.011 - 0914.666.512</a> <br>
+								
+								<img src='img/email.png' />
+								<a href='mailto:lienhe@kangaroohanoi.vn'>lienhe@kangaroohanoi.vn</a>
+								
+								<br><div style="margin-top:5px;">Giấy chứng nhận đăng ký doanh nghiệp số 010 6411 810 do Sở kế hoạch và Đầu tư Thành phố Hà Nội cấp ngày 06/01/2014</div>
+							</address>
+						</div>
+						<div class='marginbottom hidden-lg hidden-md hidden-sm'>
+
+						</div>
+					</div>
+
+				</div>
+				
+				<div class='payment_block htthanhtoan'>
+					<h4 class="cochu">Hình thức thanh toán</h4>
+					<img src='img/bank.png' />
+				</div>
+				
+			</div>
+			
+			<div class ="copyrights">
+
+				<div class="container clearfix ">
+					<div class="copyright-links mautrang11 liststyle">
+
+						<a href="/">Trang chủ</a>
+
+						/ <a href="/gioi-thieu-1">Giới thiệu</a>
+
+						/ <a href="/collections/all">Sản phẩm</a>
+
+						/ <a href="/tin-khuyen-mai-kangaroo">Khuyến mãi & Sự kiện</a>
+
+						/ <a href="/tin-thoi-su-kangaroo">Tin tức</a>
+					</div>
+				</div>
+
+				<div class="col_half col_last tright htthanhtoan1">
+					www.KangarooHanoi.vn
+				</div>
 
 			</div>
 
-			<div style=" float:left; width:100%; margin-top:20px; margin-bottom:20px;">
-				<div align="center" style="font-weight:bold; padding:20px; font-size:20px;">
-				Danh sách chuỗi Showroom liên kết</div>
-				<div style="width:100%;">
-					<hr>
-				</div>
+		</div>
 
-				<section class="foo3 mt-4">
-					<div class="container">
+	</footer>
 
-						<!-- end row -->
-						<div class="row mt-1">
-							<div class="col-lg-6 text-center bg-light">
-								<div class=" row align-items-center">
-									<div class="col-4 foo3-img text-center">
-										<a class="img-thumbnail" href="#">
-											<img src="http://media.bizwebmedia.net/Sites/73587/data/upload/tinhgiam/videotdn.jpg?2" style="border: 1px solid rgb(204, 204, 204); padding: 1px; width: 70px; height: 60px;"></a><br>
-											<a href="#">Xem bản đồ</a>
-										</div>
-										<div class="col-8 pl-0 text-left py-3">
-											<h6 class="text-uppercase">Tổng kho Kangaroo Hà Nội</h6>
-											<p class="small m-0">30 Trần Đại Nghĩa - Hai Bà trưng - Hà Nội</p>
-											<p class="small m-0">Hotline: 0933.58.4004 - 0915.48.4004 - 0969.484.004</p>
-										</div>
-									</div>
-								</div>
-								<!-- end col 6 -->
-								<div class="col-lg-6 text-center bg-light">
-									<div class=" row align-items-center">
-										<div class="col-4 foo3-img text-center">
-											<a class="img-thumbnail" href="#">
-												<img src="https://bizweb.dktcdn.net/100/075/453/files/cnmb-compressed.jpg?v=1496221960417" style="border: 1px solid rgb(204, 204, 204); padding: 1px; width: 70px; height: 60px;"></a><br>
-												<a href="#">Xem bản đồ</a>
-											</div>
-											<div class="col-8 pl-0 text-left py-3">
-												<h6 class="text-uppercase">TRUNG TÂM BẢO HÀNH TOÀN QUỐC KANGAROO</h6>
-												<p class="small m-0">231 Trần Đại Nghĩa - Đồng Tâm - Hai Bà Trưng - HN</p>
-												<p class="small m-0">Hotline: 1900 55 55 66 - Fax: 043 628 3115</p>
-											</div>
-										</div>
-									</div>
-									<!-- end col 6 -->
-									<div class="col-lg-6 text-center ">
-										<div class=" row align-items-center">
-											<div class="col-4 foo3-img text-center">
-												<a class="img-thumbnail" href="#">
-													<img src="https://bizweb.dktcdn.net/100/075/453/files/cnmb-compressed.jpg?v=1496221960417" style="border: 1px solid rgb(204, 204, 204); padding: 1px; width: 70px; height: 60px;"></a><br>
-													<a href="#">Xem bản đồ</a>
-												</div>
-												<div class="col-8 pl-0 text-left py-3">
-													<h6 class="text-uppercase">Showroom Kangaroo Trần Đại Nghĩa</h6>
-													<p class="small m-0">Số 231 Trần Đại Nghĩa - Hai Bà Trưng - Tp.HN</p>
-													<p class="small m-0">Hotline: 0933.58.4004 - 0915.48.4004 - 0969.484.004</p>
-												</div>
-											</div>
-										</div>
-										<!-- end col 6 -->
-										<div class="col-lg-6 text-center ">
-											<div class=" row align-items-center">
-												<div class="col-4 foo3-img text-center">
-													<a class="img-thumbnail" href="#">
-														<img src="http://media.bizwebmedia.net/Sites/73587/data/upload/icon2.jpg?2" style="border: 1px solid rgb(204, 204, 204); padding: 1px; width: 70px; height: 60px;"></a><br>
-														<a href="#">Xem bản đồ</a>
-													</div>
-													<div class="col-8 pl-0 text-left py-3">
-														<h6 class="text-uppercase">Showroom Kangaroo Trần Khát Chân</h6>
-														<p class="small m-0">Số 125 Trần Khát Chân - Hai Bà Trưng - Tp.HN</p>
-														<p class="small m-0">Hotline: 0933.58.4004 - 0915.48.4004 - 0969.484.004</p>
-													</div>
-												</div>
-											</div>
-											<!-- end col 6 -->
-											<div class="col-lg-6 text-center ">
-												<div class=" row align-items-center">
-													<div class="col-4 foo3-img text-center">
-														<a class="img-thumbnail" href="#">
-															<img src="https://bizweb.dktcdn.net/100/075/453/files/cnmb-compressed.jpg?v=1496221960417" style="border: 1px solid rgb(204, 204, 204); padding: 1px; width: 70px; height: 60px;"></a><br>
-															<a href="#">Xem bản đồ</a>
-														</div>
-														<div class="col-8 pl-0 text-left py-3">
-															<h6 class="text-uppercase">Showroom Kangaroo Ô Chợ Dừa</h6>
-															<p class="small m-0">Ngã 7 Ô Chợ Dừa (11 Đông Các - Đống Đa - Hà Nội)</p>
-															<p class="small m-0">Hotline: 0933.58.4004 - 0915.48.4004 - 0969.484.004</p>
-														</div>
-													</div>
-												</div>
-												<!-- end col 6 -->
-												<div class="col-lg-6 text-center ">
-													<div class=" row align-items-center">
-														<div class="col-4 foo3-img text-center">
-															<a class="img-thumbnail" href="#">
-																<img src="http://media.bizwebmedia.net/Sites/73587/data/upload/icon2.jpg?2" style="border: 1px solid rgb(204, 204, 204); padding: 1px; width: 70px; height: 60px;"></a><br>
-																<a href="#">Xem bản đồ</a>
-															</div>
-															<div class="col-8 pl-0 text-left py-3">
-																<h6 class="text-uppercase">Showroom Kangaroo Thanh Nhàn</h6>
-																<p class="small m-0">77 - 79 Thanh Nhàn - Hai Bà Trưng - Hà Nội</p>
-																<p class="small m-0">Hotline: 0933.58.4004 - 0915.48.4004 - 0969.484.004</p>
-															</div>
-														</div>
-													</div>
-													<!-- end col 6 -->
-													<div class="col-lg-6 text-center ">
-														<div class=" row align-items-center">
-															<div class="col-4 foo3-img text-center">
-																<a class="img-thumbnail" href="#">
-																	<img src="https://bizweb.dktcdn.net/100/075/453/files/cnmb-compressed.jpg?v=1496221960417" style="border: 1px solid rgb(204, 204, 204); padding: 1px; width: 70px; height: 60px;"></a><br>
-																	<a href="#">Xem bản đồ</a>
-																</div>
-																<div class="col-8 pl-0 text-left py-3">
-																	<h6 class="text-uppercase">Showroom Kangaroo Nguyễn Xiển</h6>
-																	<p class="small m-0">Số 1 Nguyễn Xiển - Thanh Xuân - Hà Nội</p>
-																	<p class="small m-0">Hotline: 0933.58.4004 - 0915.48.4004 - 0969.484.004</p>
-																</div>
-															</div>
-														</div>
-														<!-- end col 6 -->
-														<div class="col-lg-6 text-center ">
-															<div class=" row align-items-center">
-																<div class="col-4 foo3-img text-center">
-																	<a class="img-thumbnail" href="#">
-																		<img src="http://media.bizwebmedia.net/Sites/73587/data/upload/icon2.jpg?2" style="border: 1px solid rgb(204, 204, 204); padding: 1px; width: 70px; height: 60px;"></a><br>
-																		<a href="#">Xem bản đồ</a>
-																	</div>
-																	<div class="col-8 pl-0 text-left py-3">
-																		<h6 class="text-uppercase">Showroom Kangaroo Minh Khai</h6>
-																		<p class="small m-0">Số 229 Minh Khai - Hai Bà Trưng - Hà Nội</p>
-																		<p class="small m-0">Hotline: 0933.58.4004 - 0915.48.4004 - 0969.484.004</p>
-																	</div>
-																</div>
-															</div>
-															<!-- end col 6 -->
-
-
-														</div>
-														<!-- end row -->
-													</div>
-													<!-- end container -->
-												</section>
-												<!-- end foo3 -->
-											</div>
-
-										</div>
-									</main>
-
-
-									<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-									<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-									<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-									<script src="js/script.js"></script>
-								</body>
-								</html>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
